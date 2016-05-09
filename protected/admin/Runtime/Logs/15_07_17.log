@@ -1,0 +1,721 @@
+[ 2015-07-17T15:49:13+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007264s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000310s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000302s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001321s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2015-07-17T15:49:13+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php/Index/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000393s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+
+[ 2015-07-17T15:49:30+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=loginVertify
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.001237s ]
+SQL: SELECT * FROM `think_admin` WHERE ( username = "test" ) LIMIT 1   [ RunTime:0.000247s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006036s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000244s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000249s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000159s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001076s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000470s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-07-17T15:49:31+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=adminindex
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Undefined index: type_link /Users/changzhao619/Sites/2015/web/protected/admin/Lib/Action/IndexAction.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018645s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000240s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000209s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000128s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000381s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2015-07-17T15:49:31+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=defaultpage
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017664s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000235s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000219s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000132s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000954s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000321s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2015-07-17T15:49:36+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=adminIndex&type_link=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016318s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000360s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000318s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000199s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001403s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000564s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2015-07-17T15:49:38+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=adminIndex&type_link=2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `think_articlemodel` [ RunTime:0.009958s ]
+SQL: SELECT * FROM `think_articlemodel`  [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006236s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000236s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000210s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000130s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000941s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000371s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2015-07-17T15:49:40+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=jiuyexinwen
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.006464s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000344s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "jiuyexinwen" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006622s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000174s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000150s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000308s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2015-07-17T15:49:43+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=tongzhigonggao
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.017030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000368s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "tongzhigonggao" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010119s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000263s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000239s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000153s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001078s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000366s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2015-07-17T15:49:46+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=xiaoyuanzhaopin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.012993s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000483s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "xiaoyuanzhaopin" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000495s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008479s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000227s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000205s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000131s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000378s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2015-07-17T15:49:57+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=xiaowaizhaopin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.006561s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000274s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "xiaowaizhaopin" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007556s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000194s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000173s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000111s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000779s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2015-07-17T15:49:58+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=jiuyezhengce
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.018076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000486s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "jiuyezhengce" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000466s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009980s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000240s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000221s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000133s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000379s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2015-07-17T15:50:03+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=xiaowaizhaopin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.009848s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000367s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "xiaowaizhaopin" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000524s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008355s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000223s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000203s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000128s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000913s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000382s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2015-07-17T15:50:04+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=xiaoyuanzhaopin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.009780s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000380s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "xiaoyuanzhaopin" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000455s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006909s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000168s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000152s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000269s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2015-07-17T15:50:11+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=tongzhigonggao
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.009868s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000381s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "tongzhigonggao" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007915s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000235s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000206s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000298s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2015-07-17T15:50:12+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=jiuyexinwen
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.010001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000389s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "jiuyexinwen" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000527s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008382s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000240s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000208s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000133s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000963s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000392s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2015-07-17T15:50:13+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=tongzhigonggao
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.009510s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000462s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "tongzhigonggao" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007867s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000223s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000203s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000132s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000896s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2015-07-17T15:51:39+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=adminIndex&type_link=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011376s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000385s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000326s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000208s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001457s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000585s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2015-07-17T15:51:40+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=adminIndex&type_link=2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `think_articlemodel` [ RunTime:0.009601s ]
+SQL: SELECT * FROM `think_articlemodel`  [ RunTime:0.000424s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005918s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000225s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000203s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000128s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000905s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000378s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2015-07-17T15:51:41+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=jiuyexinwen
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.009906s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000306s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "jiuyexinwen" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000371s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006306s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000204s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000153s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000281s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2015-07-17T15:51:46+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_add&enname=jiuyexinwen
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: submit /Users/changzhao619/Sites/2015/web/protected/admin/Lib/Action/IndexAction.class.php 第 221 行.
+NOTIC: [8] Undefined index: updata /Users/changzhao619/Sites/2015/web/protected/admin/Lib/Action/IndexAction.class.php 第 246 行.
+NOTIC: [8] Undefined index: id /Users/changzhao619/Sites/2015/web/protected/admin/Lib/Action/IndexAction.class.php 第 262 行.
+SQL: SHOW COLUMNS FROM `think_articlemodel` [ RunTime:0.018427s ]
+SQL: SELECT * FROM `think_articlemodel` WHERE ( enname ="jiuyexinwen" ) LIMIT 1   [ RunTime:0.000551s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 25 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 26 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 27 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 28 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 32 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 46 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 50 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013794s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000315s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000309s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000504s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2015-07-17T15:52:28+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=xiaoyuanzhaopin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.009898s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000389s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "xiaoyuanzhaopin" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008689s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000235s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000210s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000136s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000389s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2015-07-17T15:52:29+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=jiuyezhengce
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.009598s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000476s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "jiuyezhengce" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000482s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008262s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000229s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000209s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000135s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000352s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2015-07-17T15:57:28+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=jiuyezhengce
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.009429s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000409s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "jiuyezhengce" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006861s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000176s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000157s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000310s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2015-07-17T15:57:31+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_add&enname=jiuyezhengce
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+NOTIC: [8] Undefined index: submit /Users/changzhao619/Sites/2015/web/protected/admin/Lib/Action/IndexAction.class.php 第 221 行.
+NOTIC: [8] Undefined index: updata /Users/changzhao619/Sites/2015/web/protected/admin/Lib/Action/IndexAction.class.php 第 246 行.
+NOTIC: [8] Undefined index: id /Users/changzhao619/Sites/2015/web/protected/admin/Lib/Action/IndexAction.class.php 第 262 行.
+SQL: SHOW COLUMNS FROM `think_articlemodel` [ RunTime:0.009498s ]
+SQL: SELECT * FROM `think_articlemodel` WHERE ( enname ="jiuyezhengce" ) LIMIT 1   [ RunTime:0.000527s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 25 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 26 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 27 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 28 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 32 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 46 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 50 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007785s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000227s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000206s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000130s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000925s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2015-07-17T16:01:02+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.009756s ]
+SQL: SHOW COLUMNS FROM `think_articlemodel` [ RunTime:0.001843s ]
+SQL: SELECT * FROM `think_articlemodel` WHERE ( enname ="jiuyezhengce" ) LIMIT 1   [ RunTime:0.000368s ]
+SQL: INSERT INTO `think_article` (`zhtype`,`entype`,`authority`,`ipcontrol`,`title`,`author`,`content`,`createtime`,`time`) VALUES ('就业政策','jiuyezhengce','all','all','常','招生就业处','<p>1234567891234567<video class=\"edui-upload-video  vjs-default-skin video-js\" controls=\"\" preload=\"none\" width=\"420\" height=\"280\" src=\"/ueditor/php/upload/video/20150717/1437120026144967.flv\" data-setup=\"{}\"><source src=\"/ueditor/php/upload/video/20150717/1437120026144967.flv\" type=\"video/flv\"/></video></p>','',0) [ RunTime:0.000935s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004623s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000180s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000176s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000277s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2015-07-17T16:01:03+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m1_sub1_layerclose
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012621s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000313s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000301s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001327s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000543s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2015-07-17T16:01:03+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=jiuyezhengce
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.001736s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000467s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "jiuyezhengce" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000571s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006164s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000166s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000150s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000283s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2015-07-17T16:01:14+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=jiuyexinwen
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.009594s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000478s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "jiuyexinwen" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000512s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008488s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000234s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000206s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000133s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2015-07-17T16:01:18+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_add&enname=jiuyexinwen
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8] Undefined index: submit /Users/changzhao619/Sites/2015/web/protected/admin/Lib/Action/IndexAction.class.php 第 221 行.
+NOTIC: [8] Undefined index: updata /Users/changzhao619/Sites/2015/web/protected/admin/Lib/Action/IndexAction.class.php 第 246 行.
+NOTIC: [8] Undefined index: id /Users/changzhao619/Sites/2015/web/protected/admin/Lib/Action/IndexAction.class.php 第 262 行.
+SQL: SHOW COLUMNS FROM `think_articlemodel` [ RunTime:0.009910s ]
+SQL: SELECT * FROM `think_articlemodel` WHERE ( enname ="jiuyexinwen" ) LIMIT 1   [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 25 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 26 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 27 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 28 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 32 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 46 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 50 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006986s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000234s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000215s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000110s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000310s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2015-07-17T16:02:23+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.009735s ]
+SQL: SHOW COLUMNS FROM `think_articlemodel` [ RunTime:0.001930s ]
+SQL: SELECT * FROM `think_articlemodel` WHERE ( enname ="jiuyexinwen" ) LIMIT 1   [ RunTime:0.000528s ]
+SQL: INSERT INTO `think_article` (`zhtype`,`entype`,`authority`,`ipcontrol`,`title`,`author`,`content`,`createtime`,`time`) VALUES ('就业新闻','jiuyexinwen','all','all','1111','招生就业处','<p>111111111<video class=\"edui-upload-video  vjs-default-skin video-js\" controls=\"\" preload=\"none\" width=\"420\" height=\"280\" src=\"/ueditor/php/upload/video/20150717/1437120117597732.flv\" data-setup=\"{}\"><source src=\"/ueditor/php/upload/video/20150717/1437120117597732.flv\" type=\"video/flv\"/></video></p>','',0) [ RunTime:0.000697s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004942s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000217s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000207s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000133s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000922s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000374s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2015-07-17T16:02:24+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m1_sub1_layerclose
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000353s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000313s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000195s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001390s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000552s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2015-07-17T16:02:24+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=jiuyexinwen
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.001230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000312s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "jiuyexinwen" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000306s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005861s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000208s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000167s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000106s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000295s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2015-07-17T16:40:09+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_articlelist&enname=jiuyexinwen
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.009855s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000495s ]
+SQL: SELECT * FROM `think_article` WHERE ( entype = "jiuyexinwen" ) ORDER BY createtime desc LIMIT 0,22   [ RunTime:0.000512s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/16553e3802d13786c90618cba355afb2.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008664s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000229s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000209s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000137s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000989s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000378s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2015-07-17T16:40:10+08:00 ] 0.0.0.0 /~changzhao619/2015/web/login.php?m=Index&a=m2_add&enname=jiuyexinwen
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [8] Undefined index: submit /Users/changzhao619/Sites/2015/web/protected/admin/Lib/Action/IndexAction.class.php 第 221 行.
+NOTIC: [8] Undefined index: updata /Users/changzhao619/Sites/2015/web/protected/admin/Lib/Action/IndexAction.class.php 第 246 行.
+NOTIC: [8] Undefined index: id /Users/changzhao619/Sites/2015/web/protected/admin/Lib/Action/IndexAction.class.php 第 262 行.
+SQL: SHOW COLUMNS FROM `think_articlemodel` [ RunTime:0.009764s ]
+SQL: SELECT * FROM `think_articlemodel` WHERE ( enname ="jiuyexinwen" ) LIMIT 1   [ RunTime:0.000327s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 25 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 26 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 27 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 28 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 32 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 46 行.
+NOTIC: [8] Undefined variable: value /Users/changzhao619/Sites/2015/web/protected/admin/Runtime/Cache/f9eccd9554fbabd58c6b00687d87670f.php 第 50 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007282s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000191s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000182s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000806s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000386s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000414s ]
+

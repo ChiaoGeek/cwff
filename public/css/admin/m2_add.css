@@ -1,0 +1,98 @@
+body{
+	width:100%;
+	padding:0px;
+	margin: 0px;
+}
+#container{
+	width:690px;
+	height:790px;
+	padding:0px;
+	font-family: Verdana, Arial, ËÎÌå;
+	font-size:15px;
+	margin:auto;
+}
+.upload_class{
+	width:670px;
+	margin:auto;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px dotted #8B4513  ;
+}
+.up_input{
+	font-family:Arial,Helvetica,sans-serif;
+	border:1px solid rgb(153, 153, 153);;
+	padding:5px 7px;
+	width:200px;
+	vertical-align:middle;
+	height:15px;
+	font-size:12px;
+	margin:0;
+	color:#778899;
+	list-style:none outside none;
+}
+#select{
+	width:150px;
+	height:20px;
+	background-color:#FFE4B5;
+	color:#778899;
+}
+#upimg{
+	text-decoration:none;
+	display:block;
+	width:80px;
+	float:right;
+	margin-right:280px;
+	background-color: #F5F5F5; 
+	color: #708090		; 
+	font-family: ¿¬Ìå_GB2312; 
+	font-size: 14px; 
+	border: 1px solid #F5DEB3; 
+	height:26px;
+	margin-top:7px;
+	line-height:26px;
+	text-align:center;
+}
+#upimg:hover{
+	text-decoration:none;
+	display:block;
+	width:80px;
+	float:right;
+	margin-right:280px;
+	background-color: black; 
+	color: white; 
+	font-family: ¿¬Ìå_GB2312; 
+	font-size: 14px; 
+	border: 1px solid #F5FFFA;
+	height:26px;
+	margin-top:7px;
+	line-height:26px;
+	text-align:center;
+}
+
+#TextArea1{
+	}
+#upload_button{
+	text-align:center;
+}	
+#upload_button #submit, #reset{
+	background-color: #F5F5F5; 
+	color: #708090		; 
+	font-family: ¿¬Ìå_GB2312; 
+	font-size: 14px; 
+	border: 1px solid #F5DEB3; 
+}
+#upload_button #submit:hover{
+	background-color: black; 
+	color: white; 
+	font-family: ¿¬Ìå_GB2312; 
+	font-size: 14px; 
+	border: 1px solid #F5FFFA; 
+}
+#upload_button #reset:hover{
+	background-color: black; 
+	color: white; 
+	font-family: ¿¬Ìå_GB2312; 
+	font-size: 14px; 
+	border: 1px solid #F5FFFA; 
+}
+

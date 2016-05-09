@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<title>后台管理系统</title>
+		<link rel="stylesheet" type="text/css" href="__ROOT__/public/css/admin/m2_add.css">
+		<script language="javascript" type="text/javascript" src="__ROOT__/public/js/admin/phpcms54/jquery.min.js"></script>
+
+<!--		<script type="text/javascript" src="__ROOT__/public/plugin/ckeditor/ckeditor.js"></script>   -->
+        <script type="text/javascript" src="__ROOT__/public/plugin/ueditorphp142/ueditor.config.js"></script>
+        <!-- 编辑器源码文件 -->
+        <script type="text/javascript" src="__ROOT__/public/plugin/ueditorphp142/ueditor.all.js"></script>
+        <!-- 实例化编辑器 -->
+        <!-- laydate -->
+        <script type="text/javascript" src="__ROOT__/public/plugin/laydate/laydate.js"></script>
+
+
+
+</head>
+<body>
+	
+<div id="container">
+			<div id="blank_one"></div>
+			<div id="upload">
+			 <form action="?m=Index&a=m2_add" name="form1" id="form1" method="post" enctype="multipart/form-data">
+             <!--表单隐藏-->
+                <input type="hidden" name="raw_id" class="up_input" id="title" value="{$column_argu.raw_id}" >
+                <input type="hidden" name="p_id" class="up_input" id="title" value="{$column_argu.p_id}" >
+                <input type="hidden" name="time" class="up_input" id="title" value="{$value.time}" >
+                <input type="hidden" name="model_type" class="up_input" id="title" value="{$column_argu.model_type}" >
+                <input type="hidden" name="id" class="up_input" id="title" value="{$value.id}" >
+             <!--表单隐藏-->
+				<div id="upload_title" class="upload_class">
+                    文章标题：<input type="text" name="title" class="up_input" id="title" value="{$value.title}" >
+                </div>
+ 				<div id="upload_type"class="upload_class">
+ 					文章类型：<select name="zhtype" id="select">
+                            <if condition="($flag eq 'updata')"><option value="{$value.entype}_{$value.zhtype}">{$value.zhtype}</option>
+                            <else/><option value="{$select.en_name}_{$select.cn_name}">{$select.cn_name}</option>
+                            </if>
+ 
+							</select>
+ 				</div>
+ 				<div id="upload_author" class="upload_class">文章作者：
+                      <if condition="($flag eq 'updata')"><input type="text" class="up_input" name="author" id="date" value="{$value.author}">
+                      <else/><input type="text" class="up_input" name="author" id="date" value="中国女性影展">
+                      </if>
+                </div>
+ 				<div id="upload_time" class="upload_class">
+                    上传时间：<input type="text" class="up_input" name="createtime" id="time" value="{$value.createtime}" onclick="laydate({istime: true, format: 'YYYY-MM-DD'})" size="40">
+                </div>
+                <div id="upload_picture" class="upload_class">
+                    上传缩略图：<input type="file" class="up_input" name="thumb" id="picture" value="{$value.createtime}" size="40">
+                    <font color="red">此项为必须项图片宽比高为3:2</font>
+                     <if condition="($flag eq 'updata')"><img src="__ROOT__{$value.thumb_path|substr = 1 }{$value.thumb_name}" width="45px" height="30px" alt="" />
+                    </if>
+                </div>
+
+				
+                <div id="upload_content"><span style="height:40px;display:block; line-height:40px; ">&nbsp;&nbsp;上传内容：</span>
+                    <script id="editor" type="text/plain" name="content" style="width:690px;margin:auto;height:500px;">{$value.content}</script>
+                </div>
+				<div id="upload_button" class="upload_class"> 
+                    <if condition="($flag eq 'updata')"><input type="submit" name="updata" id="submit" value="修改">
+                    <else/><input type="submit" name="submit" id="submit" value="提交">
+                    </if>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input type="reset" name="reset" id="reset" value="重置">
+				</div>
+			</form>
+			</div>
+</div>
+</body>
+<script language="JavaScript">
+
+    </script>
+
+    <script type="text/javascript">
+                        var ue = UE.getEditor('editor');
+    </script>
+	</html>  

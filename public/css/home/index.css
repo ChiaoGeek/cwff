@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+body {
+	padding: 0;
+	margin: 0;
+		background-color: #dbceff;
+	
+}
+#banner{
+	width: 100%;
+	height: 427px;
+	margin: auto;
+	background: url(../../images/home/header.jpg) no-repeat top;
+}
+#menu{
+	width: 100%;
+	height: 40px;
+	margin: auto;
+	background-color: #432f4a;
+}
+#menu_content{
+	width: 960px;
+	height: 40px;
+	margin: auto;
+}
+#main{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background-color: #dbceff;
+}
+#blank_1{
+	height: 16px;
+	width: 960px;
+}
+#main_up{
+	width: 960px;
+	height: 460px;
+	margin: auto;
+}
+#main_up_left{
+	width: 692px;
+	height: 460px;
+	float: left;
+}
+#main_up_right{
+	width: 252px;
+	height: 460px;
+	float: right;
+}
+.right{
+	width: 252px;
+	height: 112px;
+}
+#right_2{
+	margin-top: 4px;
+}
+#right_3{
+	margin-top: 4px;
+}
+#right_4{
+	margin-top: 4px;
+}
+#main_middle{
+	margin: auto;
+	width: 960px;
+	margin-top: 16px;
+	height: 128px;
+}
+#main_middle_left{
+	float: left;
+	width: 572px;
+	height: 128px;
+}
+#main_middle_right{
+	float: right;
+	width: 378px;
+	height: 128px;
+}
+.main_middle_5{
+	width: 184px;
+	height: 128px;
+	background-color: #4490d1;
+}
+#left_3_1{
+	float: left;
+}
+
+#left_3_2{
+	float: right;
+	margin-right: 10px;
+
+}
+#left_3_3{
+	float: right;
+}
+
+#right_2_1{
+	float: right;
+	margin-right: 10px;
+}
+#right_2_2{
+	float: right;
+	margin-right: 10px;
+}
+#main_down{
+	width: 960px;
+	height: 85px;
+	margin: auto;
+	margin-top: 16px;
+
+}
+#main_down_left{
+	width: 71px;
+	height: 85px;
+	float: left;
+
+}
+
+#main_down_right{
+	width: 862px;
+	height: 85px;
+	float: right;
+
+}
+#blank_2{
+	width: 862px;
+	height: 2px;
+}
+#main_down_right_down{
+	width: 862px;
+	height: 81px;
+	background-image: url(../../images/home/zanzhushang.jpg)
+
+}
+
+#footer{
+	width: 100%;
+	height: 110px;
+	margin-top: 16px;
+	background-color: #a483bb;
+}
+

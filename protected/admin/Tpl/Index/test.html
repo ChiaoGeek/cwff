@@ -1,0 +1,317 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>phpcmsV9 - 后台管理中心</title>
+<link href="__CSS__/phpcms54/reset.css" rel="stylesheet" type="text/css" />
+<link href="__CSS__/phpcms54/zh-cn-system.css" rel="stylesheet" type="text/css" />
+<link href="__CSS__/phpcms54/table_form.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="__CSS__/phpcms54/zh-cn-styles1.css" title="styles1" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="__CSS__/phpcms54/zh-cn-styles2.css" title="styles2" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="__CSS__/phpcms54/zh-cn-styles3.css" title="styles3" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="__CSS__/phpcms54/zh-cn-styles4.css" title="styles4" media="screen" />
+<script language="javascript" type="text/javascript" src="__JS__/phpcms54/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/phpcms54/admin_common.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/phpcms54/styleswitch.js"></script>
+<script type="text/javascript">
+    window.focus();
+    var pc_hash = 'xK5QbE';
+    </script>
+</head>
+<body>
+<div class="subnav">
+    <div class="content-menu ib-a blue line-x">
+        <a href='javascript:;' class="on"><em>管理栏目</em></a><span>|</span><a href='?m=admin&c=category&a=add&menuid=43&pc_hash=xK5QbE&s=0' ><em>添加栏目</em></a><span>|</span><a href='?m=admin&c=category&a=add&menuid=43&pc_hash=xK5QbE&s=1' ><em>添加单网页</em></a><span>|</span><a href='?m=admin&c=category&a=add&menuid=43&pc_hash=xK5QbE&s=2' ><em>添加外部链接</em></a><span>|</span><a href='?m=admin&c=category&a=public_cache&menuid=43&pc_hash=xK5QbE&module=admin' ><em>更新栏目缓存</em></a><span>|</span><a href='?m=admin&c=category&a=count_items&menuid=43&pc_hash=xK5QbE&' ><em>重新统计栏目数据</em></a><span>|</span><a href='?m=admin&c=category&a=batch_edit&menuid=43&pc_hash=xK5QbE&' ><em>批量编辑</em></a>    </div>
+</div>
+<style type="text/css">
+    html{_overflow-y:scroll}
+</style><form name="myform" action="?m=admin&c=category&a=listorder" method="post">
+<div class="pad_10">
+<div class="explain-col">
+温馨提示：请在添加、修改栏目全部完成后，<a href="?m=admin&c=category&a=public_cache&menuid=43&module=admin">更新栏目缓存</a>
+</div>
+<div class="bk10"></div>
+<div class="table-list">
+    <table width="100%" cellspacing="0" >
+        <thead>
+            <tr>
+            <th width="38">排序</th>
+            <th width="30">catid</th>
+            <th >栏目名称</th>
+            <th align='left' width='50'>栏目类型</th>
+            <th align='left' width="50">所属模型</th>
+            <th align='center' width="40">数据量</th>
+            <th align='center' width="30">访问</th>
+            <th align='center' width="80">域名绑定须知</th>
+            <th >管理操作</th>
+            </tr>
+        </thead>
+    <tbody>
+    <tr>
+                    <td align='center'><input name='listorders[1]' type='text' size='3' value='1' class='input-text-c'></td>
+                    <td align='center'>1</td>
+                    <td >网站介绍 <img src ="http://54shine.nedu.edu.cn/statics/images/icon/gear_disable.png" title="不在导航显示"></td>
+                    <td><font color="blue">单网页</font></td>
+                    <td></td>
+                    <td align='center'></td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=1' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=1&menuid=43&s=1&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=1&menuid=43&type=1&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=1&menuid=43','确认要删除 『 网站介绍 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=1&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[2]' type='text' size='3' value='1' class='input-text-c'></td>
+                    <td align='center'>2</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 关于我们</td>
+                    <td><font color="blue">单网页</font></td>
+                    <td></td>
+                    <td align='center'></td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=2' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=2&menuid=43&s=1&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=2&menuid=43&type=1&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=2&menuid=43','确认要删除 『 关于我们 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=2&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[4]' type='text' size='3' value='2' class='input-text-c'></td>
+                    <td align='center'>4</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 版权声明</td>
+                    <td><font color="blue">单网页</font></td>
+                    <td></td>
+                    <td align='center'></td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=4' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=4&menuid=43&s=1&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=4&menuid=43&type=1&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=4&menuid=43','确认要删除 『 版权声明 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=4&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[5]' type='text' size='3' value='3' class='input-text-c'></td>
+                    <td align='center'>5</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 加入我们</td>
+                    <td><font color="blue">单网页</font></td>
+                    <td></td>
+                    <td align='center'></td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=5' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=5&menuid=43&s=1&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=5&menuid=43&type=1&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=5&menuid=43','确认要删除 『 加入我们 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=5&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[21]' type='text' size='3' value='4' class='input-text-c'></td>
+                    <td align='center'>21</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ 帮助中心</td>
+                    <td><font color="blue">单网页</font></td>
+                    <td></td>
+                    <td align='center'></td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=21' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=21&menuid=43&s=1&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=21&menuid=43&type=1&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=21&menuid=43','确认要删除 『 帮助中心 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=21&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[6]' type='text' size='3' value='1' class='input-text-c'></td>
+                    <td align='center'>6</td>
+                    <td >国内</td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'>0</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=6' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=6&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=6&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=6&menuid=43','确认要删除 『 国内 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=6&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[7]' type='text' size='3' value='2' class='input-text-c'></td>
+                    <td align='center'>7</td>
+                    <td >下载</td>
+                    <td>内部栏目</td>
+                    <td>下载模型</td>
+                    <td align='center'>25</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=7' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=7&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=7&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=7&menuid=43','确认要删除 『 下载 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=7&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[8]' type='text' size='3' value='3' class='input-text-c'></td>
+                    <td align='center'>8</td>
+                    <td >照片墙</td>
+                    <td>内部栏目</td>
+                    <td>图片模型</td>
+                    <td align='center'>162</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=8' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=8&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=8&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=8&menuid=43','确认要删除 『 照片墙 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=8&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[9]' type='text' size='3' value='9' class='input-text-c'></td>
+                    <td align='center'>9</td>
+                    <td >新闻</td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'></td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=9' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=9&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=9&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=9&menuid=43','确认要删除 『 新闻 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=9&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[10]' type='text' size='3' value='10' class='input-text-c'></td>
+                    <td align='center'>10</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 聚焦</td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'>934</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=10' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=10&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=10&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=10&menuid=43','确认要删除 『 聚焦 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=10&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[11]' type='text' size='3' value='11' class='input-text-c'></td>
+                    <td align='center'>11</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 院系</td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'>3836</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=11' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=11&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=11&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=11&menuid=43','确认要删除 『 院系 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=11&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[12]' type='text' size='3' value='12' class='input-text-c'></td>
+                    <td align='center'>12</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 访谈</td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'>126</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=12' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=12&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=12&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=12&menuid=43','确认要删除 『 访谈 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=12&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[13]' type='text' size='3' value='13' class='input-text-c'></td>
+                    <td align='center'>13</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 团学</td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'>315</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=13' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=13&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=13&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=13&menuid=43','确认要删除 『 团学 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=13&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[14]' type='text' size='3' value='14' class='input-text-c'></td>
+                    <td align='center'>14</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 志愿者</td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'>242</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=14' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=14&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=14&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=14&menuid=43','确认要删除 『 志愿者 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=14&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[35]' type='text' size='3' value='35' class='input-text-c'></td>
+                    <td align='center'>35</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 社联</td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'>142</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=35' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=35&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=35&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=35&menuid=43','确认要删除 『 社联 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=35&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[39]' type='text' size='3' value='39' class='input-text-c'></td>
+                    <td align='center'>39</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 科技</td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'>70</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/science/' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=39&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=39&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=39&menuid=43','确认要删除 『 科技 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=39&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[41]' type='text' size='3' value='41' class='input-text-c'></td>
+                    <td align='center'>41</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ 艺术教育</td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'>4</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=41&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=41&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=41&menuid=43','确认要删除 『 艺术教育 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=41&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[15]' type='text' size='3' value='15' class='input-text-c'></td>
+                    <td align='center'>15</td>
+                    <td >公告</td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'>419</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=15' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=15&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=15&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=15&menuid=43','确认要删除 『 公告 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=15&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[16]' type='text' size='3' value='16' class='input-text-c'></td>
+                    <td align='center'>16</td>
+                    <td >综合</td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'></td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=16' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=16&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=16&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=16&menuid=43','确认要删除 『 综合 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=16&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[17]' type='text' size='3' value='17' class='input-text-c'></td>
+                    <td align='center'>17</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 阳光搜店</td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'>38</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=17' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=17&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=17&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=17&menuid=43','确认要删除 『 阳光搜店 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=17&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[18]' type='text' size='3' value='18' class='input-text-c'></td>
+                    <td align='center'>18</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 阳光站务</td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'>35</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=18' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=18&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=18&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=18&menuid=43','确认要删除 『 阳光站务 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=18&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[19]' type='text' size='3' value='19' class='input-text-c'></td>
+                    <td align='center'>19</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 东电人文</td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'>98</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=19' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=19&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=19&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=19&menuid=43','确认要删除 『 东电人文 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=19&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[20]' type='text' size='3' value='21' class='input-text-c'></td>
+                    <td align='center'>20</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 校园一百</td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'>423</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=20' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=20&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=20&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=20&menuid=43','确认要删除 『 校园一百 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=20&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[34]' type='text' size='3' value='34' class='input-text-c'></td>
+                    <td align='center'>34</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 校园言论</td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'>180</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/index.php?m=content&c=index&a=lists&catid=34' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=34&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=34&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=34&menuid=43','确认要删除 『 校园言论 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=34&pc_hash=xK5QbE">批量移动</a></td>
+                </tr><tr>
+                    <td align='center'><input name='listorders[38]' type='text' size='3' value='38' class='input-text-c'></td>
+                    <td align='center'>38</td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ 专题 <img src ="http://54shine.nedu.edu.cn/statics/images/icon/gear_disable.png" title="不在导航显示"></td>
+                    <td>内部栏目</td>
+                    <td>文章模型</td>
+                    <td align='center'>106</td>
+                    <td align='center'><a href='http://54shine.nedu.edu.cn/html/allinone/zhuanti/' target='_blank'>访问</a></td>
+                    <td align='center'></td>
+                    <td align='center' ><a href="?m=admin&c=category&a=add&parentid=38&menuid=43&s=0&pc_hash=xK5QbE">添加子栏目</a> | <a href="?m=admin&c=category&a=edit&catid=38&menuid=43&type=0&pc_hash=xK5QbE">修改</a> | <a href="javascript:confirmurl('?m=admin&c=category&a=delete&catid=38&menuid=43','确认要删除 『 专题 』 吗？')">删除</a> | <a href="?m=admin&c=category&a=remove&catid=38&pc_hash=xK5QbE">批量移动</a></td>
+                </tr>    </tbody>
+    </table>
+
+    <div class="btn">
+    <input type="hidden" name="pc_hash" value="xK5QbE" />
+    <input type="submit" class="button" name="dosubmit" value="排序" /></div>  </div>
+</div>
+</div>
+</form>
+<script language="JavaScript">
+<!--
+    window.top.$('#display_center_id').css('display','none');
+//-->
+</script>
+</body>
+</html>
+
